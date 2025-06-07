@@ -3,7 +3,8 @@
 
 #include <stdbool.h>
 
-#define MAXN 1024
+#define MAXN 0xFFFF
+#define ALPHA 0.75
 
 int get_rebc();
 void show_tree(int r);

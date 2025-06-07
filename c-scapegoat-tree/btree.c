@@ -13,7 +13,7 @@ int get_rebc()
 // tree size
 int count = 0;
 // alpha
-double alpha = 0.75;
+double alpha = ALPHA;
 // magic number, set to 3 is the best.
 int thresholding = 0;
 // v[K] is node value for K
